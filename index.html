@@ -9,10 +9,11 @@
     <style>
     body {
         text-align: center;
-        padding: 70px 50px;
+        margin: 0;
         background: #0d1a29;
         font-family: sans-serif;
         font-weight: lighter;
+        height: 100vh;
     }
        
     #timer {
@@ -20,6 +21,7 @@
         font-weight: 100;
         color: white;
         text-shadow: 0 0 20px #48c8ff;
+        margin-bottom: 8%;
     }
        
     #timer div {
@@ -33,10 +35,13 @@
         font-size: 0.35em;
         font-weight: 400;
     }
+    a{
+        margin-top: 10%;
+    }
     </style>
     <script>
         function updateTimer() {
-          future = Date.parse("jan 01, 2022 00:00:00");
+          future = Date.parse("JAN 1, 2022 00:00:00");
           now = new Date();
           diff = future - now;
          
@@ -69,8 +74,8 @@
 </head>
 
 <body>
-
-    <div id="timer" style="padding-top: 50px;"></div>
+    <h1 style="margin: 0; padding-top: 5%;">Silvester-Timer</h1>
+    <div id="timer" style="padding-top: 80px;"></div>
     <a href="./first.html">First Website</a>
     <a href="./Würfelbeispiel_13/index.html">Second Website</a>
     
