@@ -6,6 +6,7 @@ html, body{
 }
 h1{
     text-align: center;
+    padding-top: 2%;
 }
 a{
     text-decoration: none;
@@ -21,5 +22,21 @@ a:hover{
 #links{
     display: grid;
     grid-template-columns: 50% 50%;
-    margin-top: 10%;
+    margin-top: 0.2%;
+}
+img{
+    width: 40%;
+    margin: 1% auto 0.2% auto;
+    border-radius: 5px;
+}
+#pictures-home > img{
+    width: 60%;
+    height: auto;
+    border-radius: 5px;
+    margin: auto auto auto auto;
+}
+#pictures-home{
+    display: grid;
+    margin: 3% auto 3% auto;
+    grid-template-columns: auto auto;
 }
