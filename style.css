@@ -27,12 +27,18 @@ a:hover{
     text-decoration: underline #fff;
 }
 #links{
-    
+    display: grid;
+    grid-template-columns: auto auto;
     margin-top: 0.2%;
+    margin-bottom: 4%;
+}
+#links a{
+    margin-bottom: 4%;
 }
 img{
     display: block;
     width: 60%;
+    height: auto;
     margin: 5% auto 0.2% auto;
     border-radius: 5px;
 }
@@ -54,7 +60,8 @@ img{
     }
     #links{
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: auto auto;
+        margin-bottom: 4%;
     }
     #pictures-home{
         display: block;
