@@ -1,7 +1,6 @@
-@media screen and (max-width: 640px){
-    #links{
-        display: block;
-    }
+#home-page{
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 html, body{
@@ -15,10 +14,12 @@ h1{
     padding-top: 2%;
 }
 a{
+    display: block;
     text-decoration: none;
     text-align: center;
     color: #fff;
-    width: 30%;
+    width: 100%;
+    margin-top: 4%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -26,13 +27,13 @@ a:hover{
     text-decoration: underline #fff;
 }
 #links{
-    display: grid;
-    grid-template-columns: 50% 50%;
+    
     margin-top: 0.2%;
 }
 img{
-    width: 40%;
-    margin: 1% auto 0.2% auto;
+    display: block;
+    width: 60%;
+    margin: 5% auto 0.2% auto;
     border-radius: 5px;
 }
 #pictures-home > img{
@@ -45,4 +46,20 @@ img{
     display: grid;
     margin: 3% auto 3% auto;
     grid-template-columns: auto auto;
+}
+
+@media screen and (max-width: 640px){
+    html, body{
+        font-size: smaller;
+    }
+    #links{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    #pictures-home{
+        display: block;
+    }
+    #home-page{
+        display: block;
+    }
 }
