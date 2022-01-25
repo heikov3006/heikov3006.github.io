@@ -48,7 +48,7 @@ img{
     grid-template-columns: auto auto;
 }
 
-@media screen and ((max-width: 780px) and (orientation: portrait)){
+@media screen and (max-width: 780px) and (orientation: portrait){
     html, body{
         font-size: smaller;
     }
