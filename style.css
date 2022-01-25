@@ -1,5 +1,7 @@
 @media screen and (max-width: 640px){
-    
+    #links{
+        display: block;
+    }
 }
 
 html, body{
