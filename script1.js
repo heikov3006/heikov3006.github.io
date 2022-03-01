@@ -1,4 +1,4 @@
-function updateTimer() {
+function updateTimeNewYear() {
     future = Date.parse("JAN 1, 2023 00:00:00");
     now = new Date();
     diff = future - now;
@@ -27,4 +27,4 @@ function updateTimer() {
         s +
         "<span>seconds</span></div>";
 }
-setInterval("updateTimer()", 1000);
+setInterval("updateTimeNewYear()", 1000);
